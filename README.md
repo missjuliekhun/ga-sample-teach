@@ -17,8 +17,7 @@ By the end of this lesson, developers should be able to:
 
 ## Preparation
 
-1.  [Fork and clone](https://github.com/missjuliekhun/ga-sample-teach)
-    this repository.
+1.  Fork and clone this repository.
 
 1.  Create a new branch, `training`, for your work and change into it.
 
@@ -26,8 +25,12 @@ By the end of this lesson, developers should be able to:
 
 ## Vocabulary
 
-Prototype
-A working object instance. Object inherit directly from other objects.  
+**Prototype**
+A working object instance. Objects inherit directly from other objects.
+
+**Inheritance**
+An object or class is based on another object
+ 
 
 
 
