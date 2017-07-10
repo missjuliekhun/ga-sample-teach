@@ -1,13 +1,10 @@
 var Organism = Object.create(null);
 var Animal = Object.create(Organism);
 var Mammal = Object.create(Animal);
-var Dog = Object.create(Mammal);
-var Spot = Object.create(Dog);
+var Bear = Object.create(Mammal);
+var Black = Object.create(Bear);
 
 Mammal.hasHair = true;
+Mammal.hasPaws = true;
 
-// var inClassroom = Object.create(null);
-// var Student = Object.create(inClassroom);
-//
-//
-// Student.name.age = "Edward";
+Black.name = "Jerry";
