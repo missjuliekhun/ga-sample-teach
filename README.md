@@ -10,6 +10,7 @@ Understanding the usage of Prototypal Inheritance
 
 We have covered Javascript variables, functions, objects and callbacks but, we have not used **prototypes** or **constructors** yet.
 
+
 By the end of this lesson students will be able to:
 
 -  Use Prototypal Inheritance
@@ -35,11 +36,14 @@ By the end of this lesson students will be able to:
 
 **Inheritence** - Code reuse mechanism
 
-**Constructor** -
-**Instance** -
+<!-- **Constructor** -
+**Instance** - -->
 
-
+## I Do: Getting Started
+We will be using a function called ```Object.create``` which takes an object or null as it's first argument.
+What do you think this function does? It creates a new object, and uses the argument as it's prototype.
 ```js
+
 
 ```
 
