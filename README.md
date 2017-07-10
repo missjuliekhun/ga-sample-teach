@@ -32,16 +32,16 @@ By the end of this lesson students will be able to:
 
 ## Vocabulary
 
-**Prototypal Inheritance** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from.
+**Prototypal Inheritance** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from. **Inheritence** is a code reuse mechanism
 
-**Inheritence** - Code reuse mechanism
+
 
 <!-- **Constructor** -
 **Instance** - -->
 
 ## I Do: Getting Started
-We will be using a function called ```Object.create``` which takes an object or null as it's first argument.
-What do you think this function does? It creates a new object, and uses the argument as it's prototype.
+We will be using a function called ```Object.create``` which takes an object or ```null``` as it's first argument.
+What do you think this function does? It creates a new object, and uses the argument as it's **prototype**.
 ```js
 
 
