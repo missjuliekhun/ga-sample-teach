@@ -8,5 +8,11 @@ var Mammal = Object.create(Animal);
 var Bear = Object.create(Mammal);
 var Mammal = Object.create(Bear);
 
+
+// Let's give each object some properties
+
 Mammal.hasHair = true;
 Mammal.hasPaws = true;
+
+Bear.name = "George";
+Bear.type = "Koala";
