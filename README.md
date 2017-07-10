@@ -8,12 +8,16 @@ Understanding the usage of Prototypal Inheritance
 
 ## Objectives
 
-By the end of this lesson, developers should be able to:
+We have covered Javascript variables, functions, objects and callbacks but, we have not used **prototypes** or **constructors** yet.
 
--  Why use Prototypal Inheritance
+By the end of this lesson, you should know how to:
+
+-  Use Prototypal Inheritance
+-  Understand the usage and flexibility it allows
+<!-- -   Create an object prototype
+-   Create new objects from the same prototype -->
 -  Vocabulary
--   Create an object prototype
--   Create new objects from the same prototype
+
 
 ## Preparation
 
@@ -23,15 +27,20 @@ By the end of this lesson, developers should be able to:
 
 1.  Install dependencies with `npm install`.
 
+## Why use Prototypal Inheritance?
+
+1. It's flexible.
+
 ## Vocabulary
 
-**Prototype**
-A working object instance. Objects inherit directly from other objects.
+**Prototype** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from.
 
-**Inheritance**
-An object or class is based on another object
- 
+**Inheritence** - Code reuse mechanism
 
+**Prototypal Inheritance** -An object or class that is based on another object
+
+**Constructor** -
+**Instance** -
 
 
 ```js
