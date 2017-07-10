@@ -10,20 +10,18 @@ Understanding the usage of Prototypal Inheritance
 
 We have covered Javascript variables, functions, objects and callbacks but, we have not used **prototypes** or **constructors** yet.
 
-By the end of this lesson, you should know how to:
+By the end of this lesson students will be able to:
 
 -  Use Prototypal Inheritance
+-  Create instances of objects
 -  Understand the usage and flexibility it allows
-<!-- -   Create an object prototype
--   Create new objects from the same prototype -->
 -  Vocabulary
-
 
 ## Preparation
 
 1.  Fork and clone this repository.
 
-1.  Create a new branch, `training`, for your work and change into it.
+1.  Create a new branch, `training`, for your work and checkout into it.
 
 1.  Install dependencies with `npm install`.
 
@@ -33,11 +31,9 @@ By the end of this lesson, you should know how to:
 
 ## Vocabulary
 
-**Prototype** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from.
+**Prototypal Inheritance** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from.
 
 **Inheritence** - Code reuse mechanism
-
-**Prototypal Inheritance** -An object or class that is based on another object
 
 **Constructor** -
 **Instance** -
@@ -53,43 +49,26 @@ By the end of this lesson, you should know how to:
 ```
 
 ```js
-let primitive;
-let otherPrimitive;
-let reference;
-let otherReference;
 ```
 
-### Demo: Functions
+### I Do:
 
 ```js
-const five = function() {
-  return 5;
-};
 
-const add = function(a, b){
-  a + b;
-};
 ```
 
 
-### Code Along:
+### You Do:
 
 ```js
-const helloWorld = function(){
-  return "Hello World!";
-};
 
-const hello = function(name){
-  return "Hello " + name;
-};
 ```
+
+### We Do:
+
 
 
 ### Resources:
 
 Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?
 https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
-
-
-something
-eksmrgnjdg
