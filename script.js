@@ -6,7 +6,7 @@ var Organism = Object.create(null);
 var Animal = Object.create(Organism);
 var Mammal = Object.create(Animal);
 var Bear = Object.create(Mammal);
-var Mammal = Object.create(Bear);
+var George = Object.create(Bear);
 
 
 // Let's give each object some properties
@@ -14,5 +14,5 @@ var Mammal = Object.create(Bear);
 Mammal.hasHair = true;
 Mammal.hasPaws = true;
 
-Bear.name = "George";
+Bear.name = "George", "Kelly";
 Bear.type = "Koala";
