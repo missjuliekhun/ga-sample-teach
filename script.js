@@ -6,7 +6,7 @@ var Organism = Object.create(null);
 var Animal = Object.create(Organism);
 var Mammal = Object.create(Animal);
 var Bear = Object.create(Mammal);
-function (){
+  function Bear(){
 
 }
 
