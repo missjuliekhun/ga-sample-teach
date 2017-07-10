@@ -8,3 +8,6 @@ Mammal.hasHair = true;
 Mammal.hasPaws = true;
 
 Black.name = "Jerry";
+Black.run = function {
+  console.log("I am running");
+}
