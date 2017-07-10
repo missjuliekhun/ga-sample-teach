@@ -14,5 +14,17 @@ var George = Object.create(Bear);
 Mammal.hasHair = true;
 Mammal.hasPaws = true;
 
-Bear.name = "George", "Kelly";
+Bear.name = "George";
 Bear.type = "Koala";
+
+function (){
+
+
+
+}
+
+Bear.prototype.growl = function () {
+  console.log('grrrrr');
+};
+
+var Kelly = new Bear();
