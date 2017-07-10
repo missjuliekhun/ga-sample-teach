@@ -20,11 +20,10 @@ By the end of this lesson students will be able to:
 
 ## Preparation
 
+
 1.  Fork and clone this repository.
 
-1.  Create a new branch, `training`, for your work and checkout into it.
-
-1.  Install dependencies with `npm install`.
+1.  ```cd``` into the ```practice``` folder
 
 ## Why use Prototypal Inheritance?
 
