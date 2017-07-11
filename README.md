@@ -31,7 +31,7 @@ By the end of this lesson students will be able to:
 
 ## Vocabulary
 
-**Prototype** - property that allows .
+**Prototype** - property that allows a user to create new properties in the same prototype.
 
 ```js
 function Car(make, model, year, color, tires) {
