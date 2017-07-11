@@ -31,8 +31,19 @@ By the end of this lesson students will be able to:
 
 ## Vocabulary
 
-**Prototype** - an Object (object with a capitol 'O') in which other objects inherit their properties from.
-The intial model for other instances of objects.
+**Prototype** - property that allows .
+
+```js
+function Car(make, model, year, color, tires) {
+    this.make = "volkswagon";
+    this.model = "jetta";
+    this.color = "yellow";
+    this.tires = 4;
+}
+
+Car.prototype.year = 2001;
+
+```
 
 **Constructor** - Constructors are used to _construct_ a new Object
 
