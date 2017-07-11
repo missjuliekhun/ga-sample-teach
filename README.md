@@ -31,9 +31,16 @@ By the end of this lesson students will be able to:
 
 ## Vocabulary
 
-**Prototypal Inheritance** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from. **Inheritence** is a code reuse mechanism
+**Prototype** - an Object (object with a capitol 'O') in which other objects inherit their properties from.
 
 **Constructor** - Constructors are used to _construct_ a new Object
+
+Example:
+```var myString = new String();
+```
+
+**Prototypal Inheritance** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from. **Inheritence** is a code reuse mechanism
+
 
 
 
