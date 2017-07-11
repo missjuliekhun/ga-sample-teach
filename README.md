@@ -32,6 +32,7 @@ By the end of this lesson students will be able to:
 ## Vocabulary
 
 **Prototype** - an Object (object with a capitol 'O') in which other objects inherit their properties from.
+The intial model for other instances of objects.
 
 **Constructor** - Constructors are used to _construct_ a new Object
 
