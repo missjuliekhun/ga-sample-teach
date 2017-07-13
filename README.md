@@ -6,6 +6,8 @@
 
 Understanding the usage of Prototypal Inheritance
 
+[![Giphy](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)
+
 ## Objectives
 
 We have covered Javascript variables, functions, objects and callbacks but, we have not used **prototypes** or **constructors** yet.
@@ -18,6 +20,13 @@ By the end of this lesson students will be able to:
 -  Understand the usage and flexibility it allows
 -  Vocabulary
 
+
+## Why use Prototypal OO Javascript?
+1. It's flexible
+
+1. Does not use classes
+
+
 ## Preparation
 
 
@@ -27,9 +36,6 @@ By the end of this lesson students will be able to:
 
 1. ```touch``` index.html script.js
 
-## Why use Prototypal Inheritance?
-
-1. It's flexible.
 
 ## Vocabulary
 
