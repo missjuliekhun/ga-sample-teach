@@ -25,6 +25,8 @@ By the end of this lesson students will be able to:
 
 1.  ```cd``` into the ```practice``` folder
 
+1. ```touch``` index.html script.js
+
 ## Why use Prototypal Inheritance?
 
 1. It's flexible.
@@ -32,7 +34,7 @@ By the end of this lesson students will be able to:
 ## Vocabulary
 
 **Prototype** - property that allows a user to create new properties in the same prototype.
-
+Example:
 ```js
 function Car(make, model, year, color, tires) {
     this.make = "volkswagon";
@@ -46,7 +48,6 @@ Car.prototype.year = 2001;
 ```
 
 **Constructor** - Constructors are used to _construct_ a new Object
-
 Example:
 ```js
 var myString = new String();
