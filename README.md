@@ -4,9 +4,6 @@
 
 # Prototypal Inheritance
 
-Understanding the usage of Prototypal Inheritance
-
-[![General Assembly Logo](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)
 
 ## Objectives
 
@@ -15,10 +12,13 @@ We have covered Javascript variables, functions, objects and callbacks but, we h
 
 By the end of this lesson students will be able to:
 
--  Use Prototypal Inheritance
--  Create instances of objects
--  Understand the usage and flexibility it allows
+-  Understand the general usage Prototypal Inheritance
 -  Vocabulary
+-  Understand the usage and flexibility it allows
+-  Implement inheritance in the console
+-  Create instances of objects
+
+[![General Assembly Logo](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)
 
 
 ## Why use Prototypal OO Javascript?
