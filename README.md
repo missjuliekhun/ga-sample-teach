@@ -21,10 +21,10 @@ By the end of this lesson students will be able to:
 [![General Assembly Logo](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)
 
 
-## Why use Prototypal OO Javascript?
-1. It's flexible
+## We all know what functions are, right? 
+They're not only used to perform a particular task but they are also objects
+Since they're objects, they can have properties, and all have a prototype property. 
 
-1. Does not use classes
 
 
 ## Preparation
