@@ -71,7 +71,7 @@ var panda = new Bear
 So now we have our ```panda``` who is an instance of ```Bear``` but we want to make it do something. 
 
 ```js
-function (){
+function Bear (){
 }
 
 Bear.prototype.growl = function (){
