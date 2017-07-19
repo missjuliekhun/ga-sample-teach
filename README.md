@@ -73,6 +73,9 @@ console.log("grrrrrr");
 
 ```
 
+We just created a **method** on our Bear by attaching a ```growl``` function.
+
+
 
 
 ## Preparation
