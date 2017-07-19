@@ -13,7 +13,7 @@ We have covered Javascript variables, functions, objects and callbacks but, we h
 By the end of this lesson students will be able to:
 
 -  Understand the general usage Prototypal Inheritance
--  Demonstrate that flexibility it allows
+-  Demonstrate the flexibility it allows
 -  Vocabulary
 
 [![General Assembly Logo](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia3.giphy.com%2Fmedia%2Fl4lRbfZKiS4aRvJ96%2Fgiphy-downsized.gif)
@@ -105,4 +105,4 @@ koala.growl(); // "grrrrr"
 When we call the ```growl``` method on koala, Javascript does not find the method on the instance of koala. Instead, it goes up the **prototype chain** and recognizes the parent ```Bear.prototype``` and calls this method onto ```koala```. 
 
 
-## Questions, comments, concerns? 
+## Questions, comments, concerns, another example? 
