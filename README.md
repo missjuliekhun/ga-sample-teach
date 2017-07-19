@@ -25,6 +25,15 @@ By the end of this lesson students will be able to:
 4) Create an instance of an object
 5) Methods
 
+## Preparation
+
+
+1.  Fork and clone this repository.
+
+1.  ```cd``` into the ```practice``` folder
+
+1. ```touch``` index.html script.js
+
 ## Prototypal Inheritance 
 Objects inheriting from other objects. Objects inherit the properties and methods from their prototype.
 
@@ -75,15 +84,24 @@ console.log("grrrrrr");
 
 We just created a **method** on our Bear by attaching a ```growl``` function.
 
+### Let's create a ```new``` Bear that will inherit these methods. 
 
+``` var koala = new Bear();```
 
+Give it some properties or values if you like: 
 
-## Preparation
+```js
+koala.name = "Juliet"; 
+koala.color = "gray"; 
+koala.age = "18"; 
+```
 
+Let's make our koala growl: 
 
-1.  Fork and clone this repository.
+```js
+koala.growl(); // "grrrrr" 
+``` 
 
-1.  ```cd``` into the ```practice``` folder
+When we call the ```growl``` method on koala, Javascript does not find the method on the instance of koala. Instead, it goes up the **prototype chain** and recognizes the parent ```Bear.prototype``` and calls this method onto ```koala```. 
 
-1. ```touch``` index.html script.js
 
