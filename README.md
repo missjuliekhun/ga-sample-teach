@@ -62,14 +62,15 @@ function Bear (){
 
 ```
 
-### Our constructor function about will create instances of ```Bear``` by using the ```new``` keyword: 
+### This constructor function about will create instances of ```Bear``` by using the ```new``` keyword: 
 
 ```js
+
 var panda = new Bear();
 
 ```
 We now have our panda created because the ```new``` keyword will use the constructor function to create this bear.
-Our ```panda``` who is an instance of ```Bear``` but we want to make it do something now.
+Our ```panda``` is an instance of ```Bear``` but we want to make it do something now.
 
 ```js
 function Bear (){
@@ -85,7 +86,7 @@ console.log("grrrrrr");
 
 We just created a **method** on our Bear by attaching a ```growl``` function.
 
-### Let's create a ```new``` Bear that will inherit these methods. 
+### Let's create another ```new``` Bear that will inherit these methods as well. 
 
 ``` var koala = new Bear();```
 
