@@ -59,6 +59,19 @@ var panda = new Bear
 
 ```
 
+So now we have our ```panda``` who is an instance of ```Bear``` but we want to make it do something. 
+
+```js
+function (){
+}
+
+Bear.prototype.growl = function (){
+
+console.log("grrrrrr"); 
+
+}
+
+```
 
 
 
@@ -70,33 +83,4 @@ var panda = new Bear
 1.  ```cd``` into the ```practice``` folder
 
 1. ```touch``` index.html script.js
-
-
-## Vocabulary
-
-**Prototype** - property that allows a user to create new properties in the same prototype.
-Example:
-```js
-function Car(make, model, year, color, tires) {
-    this.make = "volkswagon";
-    this.model = "jetta";
-    this.color = "yellow";
-    this.tires = 4;
-}
-
-Car.prototype.year = 2001;
-
-```
-
-**Constructor** - Constructors are used to _construct_ a new Object
-Example:
-```js
-var myString = new String();
-```
-
-**Prototypal Inheritance** - A working object instance. In JavaScript it is an object in which other JavaScript objects inherit their properties and methods from. **Inheritence** is a code reuse mechanism
-
-
-
-
 
