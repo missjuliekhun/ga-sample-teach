@@ -53,6 +53,7 @@ typeof foo.prototype // 'object'
 ```
 
 ### Let's create a **constructor** that will construct instances of objects: 
+Constructors are used to 'construct' a new object
 
 ```
 function Bear (){
@@ -64,11 +65,11 @@ function Bear (){
 ### Our constructor function about will create instances of ```Bear``` by using the ```new``` keyword: 
 
 ```js
-var panda = new Bear
+var panda = new Bear();
 
 ```
-
-So now we have our ```panda``` who is an instance of ```Bear``` but we want to make it do something. 
+We now have our panda created because the ```new``` keyword will use the constructor function to create this bear.
+Our ```panda``` who is an instance of ```Bear``` but we want to make it do something now.
 
 ```js
 function Bear (){
