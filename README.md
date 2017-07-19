@@ -105,3 +105,4 @@ koala.growl(); // "grrrrr"
 When we call the ```growl``` method on koala, Javascript does not find the method on the instance of koala. Instead, it goes up the **prototype chain** and recognizes the parent ```Bear.prototype``` and calls this method onto ```koala```. 
 
 
+## Questions, comments, concerns? 
