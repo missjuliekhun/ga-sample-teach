@@ -99,47 +99,4 @@ var myString = new String();
 
 
 
-<!-- **Constructor** -
-**Instance** - -->
 
-## I Do: Getting Started
-We will be using a function called ```Object.create``` which takes an object or ```null``` as it's first argument.
-What do you think this function does? It creates a new object, and uses the argument as it's **prototype**.
-
-Let's define an object.
-```js
-
-
-
-
-```
-
-
-```js
-
-```
-
-```js
-```
-
-### I Do:
-
-```js
-
-```
-
-
-### You Do:
-
-```js
-
-```
-
-### We Do:
-
-
-
-### Resources:
-
-Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?
-https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9
