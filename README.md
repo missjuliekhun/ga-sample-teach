@@ -7,7 +7,7 @@
 
 ## Objectives
 
-We have covered Javascript variables, functions, objects and callbacks but, we have not used **prototypes** or **constructors** yet.
+We have covered Javascript variables, functions, objects and callbacks but, we have not used prototypes or constructors yet.
 
 
 By the end of this lesson students will be able to:
@@ -21,24 +21,43 @@ By the end of this lesson students will be able to:
 ## Agenda 
 1) What is prototypal inheritance? 
 2) Write a function prototype (.prototype)
-3) Using constructors to construct a new object
-4) Methods
+3) Using constructors to construct a ```new``` object
+4) Create an instance of an object
+5) Methods
 
 ## Prototypal Inheritance 
 Objects inheriting from other objects. Objects inherit the properties and methods from their prototype.
 
-## We all know what functions are, right? 
-They're not only used to perform a particular task but functions are also objects.
-This means they can have properties, and all have a **prototype** property. When you create a **function prototype**, it automatically has a ```prototype``` property. 
+### We all know what functions are, right? 
+They're not only used to perform a particular task but **functions are also objects.** When you create a **function prototype**, it automatically has a ```prototype``` property. 
 
-Try this: 
+Example:  
 ```js
 
-function Bear 
+function foo() {
+
+}
+
+typeof foo.prototype // 'object' 
 
 
 ```
 
+### Let's create a **constructor** that will construct instances of objects: 
+
+```
+function Bear (){
+
+}
+
+```
+
+### Our constructor function about will create instances of ```Bear``` by using the ```new``` keyword: 
+
+```js
+var panda = new Bear
+
+```
 
 
 
