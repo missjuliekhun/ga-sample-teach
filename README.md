@@ -38,7 +38,7 @@ By the end of this lesson students will be able to:
 Objects inheriting from other objects. Objects inherit the properties and methods from their prototype.
 
 ### We all know what functions are, right? 
-They're not only used to perform a particular task but **functions are also objects.** When you create a **function prototype**, it automatically has a ```prototype``` property. 
+They're not only used to perform a particular task but **functions are also objects.** When you create a **function prototype**, it already comes with a ```prototype``` property. 
 
 Example:  
 ```js
